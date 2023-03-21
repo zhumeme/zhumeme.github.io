@@ -4,11 +4,20 @@ title = 'zhumeme blog'
 theme = 'nightfall'
 
 [params]
-author = "Mr Hugo"
-user = "hello"
-hostname = "gohugo.io"
+disqusShortname = 'zhumeme'
+
+[params]
+author = "zhumeme"
+user = "zhumeme"
+hostname = "zhumeme.github.io"
 
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:email@example.com"
+url = "mailto:chyloveslife@gmail.com"
+
+[menu]
+[[menu.header]]
+name = "posts"
+weight = 0
+url = "/posts"
