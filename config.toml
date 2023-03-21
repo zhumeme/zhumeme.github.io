@@ -19,3 +19,6 @@ url = "mailto:chyloveslife@gmail.com"
 name = "posts"
 weight = 0
 url = "/posts"
+
+[permalinks]
+posts = '/:year/:month/:title/'
