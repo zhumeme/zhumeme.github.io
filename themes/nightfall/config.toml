@@ -1,0 +1,9 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+
+[params]
+author = "zhumeme"
+user = "zhumeme"
+hostname = "zhumeme.github.io"
