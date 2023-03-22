@@ -10,4 +10,11 @@
         {{ .Content }}
     </div>
 </div>
+
+{{ if and .Params.comments (gt (len .Site.DisqusShortname) 0) }}
+<figure class="article-discussion">
+    {{ template "_internal/disqus.html" . }}
+</figure>
+{{ end }}
+
 {{ end }}
