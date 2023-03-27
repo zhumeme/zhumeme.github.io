@@ -16,9 +16,13 @@ url = "mailto:chyloveslife@gmail.com"
 
 [menu]
 [[menu.header]]
-name = "posts"
-weight = 0
+name = "Posts"
+weight = 1
 url = "/posts"
+[[menu.header]]
+name = "About"
+weight = 0
+url = "/aboutme"
 
 [permalinks]
 posts = '/:year/:month/:title/'
